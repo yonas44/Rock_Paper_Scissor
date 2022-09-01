@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: lightblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.dashboard {
+  width: 300px;
+  height: 400px;
+  background: #ff4500;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.cards {
+  width: 120px;
+  height: 80px;
+  background: lightgreen;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  margin-top: 5px;
+}
+.play {
+  padding: 5%;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  cursor: pointer;
+}
