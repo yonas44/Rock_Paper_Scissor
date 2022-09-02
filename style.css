@@ -10,12 +10,14 @@ body {
 }
 .dashboard {
   width: 300px;
-  height: 400px;
+  height: 350px;
   background: #ff4500;
+}
+.dashboard .opts {
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
-  position: relative;
+  /* position: relative; */
 }
 
 .cards {
@@ -25,15 +27,27 @@ body {
   border-radius: 10px;
   text-align: center;
   padding: 15px;
-  margin-top: 5px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 5px gray;
+}
+.screen {
+  margin: 30px auto;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightgray;
+  border: solid 1px black;
 }
 .play {
   padding: 5%;
   font-size: 30px;
   border-radius: 10px;
   border: none;
-  position: absolute;
-  bottom: 10%;
-  left: 35%;
+  display: block;
+  margin: 0px auto;
+  box-shadow: 0px 3px 5px black;
   cursor: pointer;
 }
